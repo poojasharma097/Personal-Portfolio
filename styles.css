@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* Colors: F5F5F5, F2EAD3, DFD7BF, 3F2305 */
+body{
+    background-color: #F2EAD3;
+    background-image: url("images/fresh-snow.png");
+    font-family: 'Playfair Display', serif;
+}
+.section-heading{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+/* NAVIGATION BAR */
+.navigation-bar{
+    font-family: 'Poppins', sans-serif;
+}
+.navigation-bar .nav-link{
+    color: #3F2305;
+}
+.navigation-bar .btn{
+    color: #3F2305;
+    outline-color: #3F2305;
+    border-radius: 1.2em;
+    border: 1px solid #3F2305;
+}
+.navigation-bar .btn:hover{
+    color: white;
+    background-color: #3F2305;
+}
+@media (max-width: 575.98px) {
+    .navigation-bar .btn{
+        display: block;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .navigation-bar .btn{
+        display: block;
+    }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px){
+    .navigation-bar .btn{
+        display: block;
+    }
+}
+
+/* INTRODUCTION */
+.introduction{
+    background-color: #F2EAD3;
+    background-image: url("https://www.transparenttextures.com/patterns/fresh-snow.png");
+    color: #3F2305;
+}
+.introduction .btn{
+    background-color: #3F2305;
+    border-color: #3F2305;
+    border-radius: 1.5em;
+    margin-top: 1.8rem;
+}
+.introduction .btn:hover{
+    background-color: #F2EAD3;
+    color: #3F2305;
+}
+.introduction .introduction-item{
+    margin-bottom: 1.5rem;
+}
+.introduction .introduction-item-subheading{
+    font-family: 'Lora', serif;
+}
+.introduction .img{
+    border-radius: 50%;
+    border: 7px solid #3F2305;
+    float: right;
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
+}
+.introduction .introduction-icons{
+    display: block;
+}
+.introduction .introduction-icon{
+    width: 35px;
+    height: 35px;
+    margin: 1.2rem;
+}
+@media (max-width: 575.98px) {
+    .introduction .img{
+        width: 150px;
+        height: 150px;
+    }
+    .introduction .introduction-icon{
+        width: 20px;
+        height: 20px;
+    }
+}
+@media (min-width: 575.98px) and (max-width: 767.98px){
+    .introduction .img{
+        width: 150px;
+        height: 150px;
+    }
+    .introduction .introduction-icon{
+        width: 23px;
+        height: 23px;
+    }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px){
+    .introduction .img{
+        width: 250px;
+        height: 250px;
+    }
+    .introduction .introduction-icon{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/* ABOUT */
+.about{
+    background-color: white;
+    color: #3F2305;
+    padding-top: 48px;
+    border: 1px solid #3F2305;
+    border-radius: 5px;
+}
+.about .about-me{
+    text-align: left;
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+}
+@media (max-width: 575.98px) {
+    .about .about-me{
+        font-size: 0.9rem;
+    }
+}
+@media (min-width: 575.98px) and (max-width: 767.98px){
+    .about .about-me{
+        font-size: 0.9rem;
+    }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px){
+    .about .about-me{
+        font-size: 1rem;
+    }
+}
+
+/* SKILLS */
+.skills .card{
+    background-color: #F2EAD3;
+    background-image: url("https://www.transparenttextures.com/patterns/fresh-snow.png");
+    border: none;
+    font-family: 'Lora', serif;
+}
+.skills .skill-img{
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1em;
+}
+@media (max-width: 575.98px) {
+    .skills .card-title{
+        display: block;
+    }
+}
+@media (min-width: 575.98px) and (max-width: 767.98px){
+    .skills .row .card-title{
+        font-size: 0.8rem;
+        display: block;
+    }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px){
+    .skills .row .card-title{
+        font-size: 0.8rem;
+        display: block;
+    }
+}
+
+/* PROJECTS */
+.projects{
+    background-color: white;
+    color: #3F2305;
+    padding-top: 48px;
+    border: 1px solid #3F2305;
+    border-radius: 5px;
+}
+.projects .card{
+    border-color: #3F2305;
+}
+.projects .card-text{
+    font-family: 'Lora', serif;
+}
+.projects .card-img-top{
+    height: 250px;
+}
+.projects .btn{
+    background-color: #3F2305;
+    border-color: #3F2305;
+    font-family: 'Lora', serif;
+    border-radius: 1.5em;
+}
+.projects .btn:hover{
+    background-color: #F2EAD3;
+    font-family: 'Lora', serif;
+    color: #3F2305;
+}
+@media (max-width: 575.98px) {
+    .projects .card-text{
+        font-size: 0.8rem;
+    }
+    .projects .row{
+        padding: 0;
+    }
+    .projects .card-img-top{
+        width: auto;
+        height: 150px;
+    }
+}
+@media (min-width: 575.98px) and (max-width: 767.98px){
+    .projects .card-text{
+        font-size: 0.8rem;
+    }
+    .projects .row{
+        padding: 0;
+    }
+    .projects .card-img-top{
+        width: auto;
+        height: 150px;
+    }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px){
+    .projects .card-text{
+        font-size: 0.8rem;
+    }
+    .projects .row{
+        padding: 0;
+    }
+    .projects .card-img-top{
+        width: auto;
+        height: 200px;
+    }
+}
+
+/* EXPERIENCE AND EDUCATION */
+.container-grid{
+    padding-top: 3rem;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 3rem 0 3rem;
+    font-family: 'Lora', serif;
+}
+.timeline {
+    border-left: 1px solid #3F2305;
+    position: relative;
+    list-style: none;
+}
+.timeline .timeline-item {
+    position: relative;
+}
+.timeline .timeline-item:after {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+}
+.timeline .timeline-item:after {
+    background-color: #3F2305;
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+}
+
+/* FOOTER */
+.footer{
+    color: #3F2305;
+}
