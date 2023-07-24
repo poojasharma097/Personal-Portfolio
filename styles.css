@@ -86,6 +86,12 @@ body{
     margin: 1.2rem;
 }
 @media (max-width: 575.98px) {
+    .introduction .introduction-image{
+        display: block;
+    }
+    .introduction .introduction-line{
+        display: block;
+    }
     .introduction .img{
         width: 150px;
         height: 150px;
@@ -96,6 +102,12 @@ body{
     }
 }
 @media (min-width: 575.98px) and (max-width: 767.98px){
+    .introduction .introduction-image{
+        display: block;
+    }
+    .introduction .introduction-line{
+        display: block;
+    }
     .introduction .img{
         width: 150px;
         height: 150px;
@@ -106,6 +118,12 @@ body{
     }
 }
 @media (min-width: 767.98px) and (max-width: 991.98px){
+    .introduction .introduction-image{
+        display: block;
+    }
+    .introduction .introduction-line{
+        display: block;
+    }
     .introduction .img{
         width: 250px;
         height: 250px;
