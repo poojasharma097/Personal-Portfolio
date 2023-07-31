@@ -86,11 +86,8 @@ body{
     margin: 1.2rem;
 }
 @media (max-width: 575.98px) {
-    .introduction .introduction-image{
-        display: block;
-    }
-    .introduction .introduction-line{
-        display: block;
+    .introduction-image{
+        display: none;
     }
     .introduction .img{
         width: 150px;
@@ -102,12 +99,6 @@ body{
     }
 }
 @media (min-width: 575.98px) and (max-width: 767.98px){
-    .introduction .introduction-image{
-        display: block;
-    }
-    .introduction .introduction-line{
-        display: block;
-    }
     .introduction .img{
         width: 150px;
         height: 150px;
